@@ -13,8 +13,8 @@ Class RestCurl {
      
     switch($method) {
       case 'GET':
-        if(strrpos($url, "?") === FALSE) {
-          $url .= '?' . http_build_query($obj);
+        if (count($obj) > 0) {
+          $url .= ((strrpos($url, '?') === false) ? '?' : '&') . http_build_query($obj);
         }
         break;
 
