@@ -49,19 +49,17 @@ Will assign to $res something like:
         [status] => 200
         [data] => Array
             (
-                [0] => Array
-                    (
-                        [_id] => Array
-                            (
+                [0] => Array
+                    (
+                        [_id] => Array
+                            (
                                 [$oid] => 52476ad1e4b08781144211f3
                             )
-
                         [city] => Barcelona
                         [date] => 2014-03-10
                         [guest] => Jordi Moraleda
                         [company] => Uniclau
                     )
-
             )
         [header] => HTTP/1.1 200 OK
     Date: Wed, 12 Mar 2014 01:17:53 GMT
