@@ -49,10 +49,10 @@ Will assign to $res something like:
         [status] => 200
         [data] => Array
             (
-                [0] => stdClass Object
-                    (
-                        [_id] => stdClass Object
-                            (
+                [0] => Array
+                    (
+                        [_id] => Array
+                            (
                                 [$oid] => 52476ad1e4b08781144211f3
                             )
 
