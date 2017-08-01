@@ -13,7 +13,7 @@ Using it is as simple as can be.
 	// CALL
 	$result = RestCurl::get("https://api.mongolab.com/api/1/databases/my-db/collections/bookings?apiKey=0123456789abcde");
 
-##CRUD Methods
+## CRUD Methods
 RestCurl supports the typical CRUD methods (GET, POST, PUT, DELETE) as follows:
 
 	// GET
@@ -92,14 +92,14 @@ If you want to use methods besides GET, POST, PUT, DELETE, you can achieve that 
 ## Dependencies
 To get PHP Rest Curl working, you will need to install the corresponding package for your platform. 
 
-####Debian/Ubuntu
+#### Debian/Ubuntu
 
 	sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
 	
-####Red Hat/CentOS
+#### Red Hat/CentOS
 
 	yum install php-common php-curl
 
-####Mac OS X (development)
+#### Mac OS X (development)
 
 * Just use [MAMP](http://www.mamp.info/en/). Everything is bundled inside.
